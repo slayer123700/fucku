@@ -1,0 +1,36 @@
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ─── Virtual Environments ─────────────────────
+venv/
+.env/
+.env.*
+ENV/
+
+# ─── Pyrogram Session Files ───────────────────
+*.session
+*.session-journal
+
+# ─── IDE / Editor ─────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── OS Files ─────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Logs ─────────────────────────────────────
+*.log
+
+# ─── Node / Other (safe) ──────────────────────
+node_modules/
+
+# ─── Local Assets (optional) ──────────────────
+bot/assets/*.jpg
+bot/assets/*.png
