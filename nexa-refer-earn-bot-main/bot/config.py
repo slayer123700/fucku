@@ -4,18 +4,18 @@ import os
 # ───────────────────────────────────────────────
 # TELEGRAM API (REQUIRED)
 # ───────────────────────────────────────────────
-API_ID = int(os.getenv("API_ID", "0"))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+API_ID = int(os.getenv("API_ID", "26249286"))
+API_HASH = os.getenv("API_HASH", "4e3bf0b014fda4ac752e8f4ab854279b")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8571848657:AAE9KdCNJsBbnTayMJvhJG6Ijzw1t2XuSd8")
 
-BOT_USERNAME = os.getenv("BOT_USERNAME", "NexaStarsBot")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "Earntgidbot")
 
-DATABASE_NAME = "nexa"
+DATABASE_NAME = "test"
 
 # ───────────────────────────────────────────────
 # MONGODB (REQUIRED)
 # ───────────────────────────────────────────────
-MONGO_URI = os.getenv("MONGO_URI", "")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://lollolopp0900:slayersan@cluster0.mge1ngz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 
 FEEDBACK_IMAGE = "https://files.catbox.moe/45m3vs.jpg"
